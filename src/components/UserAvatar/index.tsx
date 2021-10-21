@@ -28,6 +28,7 @@ type Props = {
   size?: 'SMALL' | 'NORMAL'
 }
 
+
 export function UserAvatar({ imageUri, size = 'NORMAL'}: Props){
   const { containerSize, avatarSize } = SIZES[size]
 

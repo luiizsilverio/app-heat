@@ -15,16 +15,18 @@ export function Header(){
     <View style={styles.container}>
       <LogoSvg />
 
-      <UserAvatar 
-        imageUri="https://github.com/luiizsilverio.png" 
-        size="NORMAL"
-      />
+      <View style={styles.logoutButton}>
+        <TouchableOpacity>
+          <Text style={styles.logoutText}>
+            Sair
+          </Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity>
-        <Text style={styles.logoutText}>
-          Sair
-        </Text>
-      </TouchableOpacity>
+        <UserAvatar 
+          imageUri="https://github.com/luiizsilverio.png" 
+          size="NORMAL"
+        />
+      </View>
 
     </View>
   );
