@@ -3,6 +3,7 @@
     "name": "appheat",
     "slug": "appheat",
     "version": "1.0.0",
+    "scheme": "appheat",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

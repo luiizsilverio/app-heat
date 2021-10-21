@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <AuthProvider>
-      <StatusBar style="light" />
+      <StatusBar style="light" translucent backgroundColor="transparent" />
       <Home />
     </AuthProvider>
   );
