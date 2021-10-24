@@ -59,8 +59,8 @@ export function MessageList(){
       keyboardShouldPersistTaps="never"
     >
       {
-        messages.map((message) => (
-          <Message key={message.id} data={message} />
+        messages.map((message, index) => (
+          <Message key={message.id? message.id : index} data={message} />
         ))
       }
 
