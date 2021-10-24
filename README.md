@@ -1,8 +1,4 @@
-<table>
-  <tr>
-    <td><img src="https://github.com/luiizsilverio/app-heat/blob/main/assets/icon.png" /></td>
-  </tr>
-</table>
+![](https://github.com/luiizsilverio/app-heat/blob/main/src/assets/logo.svg)
 
 ## Conteúdo
 * [Sobre o Projeto](#sobre-o-projeto)
